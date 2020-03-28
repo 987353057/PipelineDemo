@@ -13,22 +13,22 @@
      </body>
     </html>
 
-    var client pipeline.createClient(); // 调用pipeline.createClient()构建客户端对象
-    client.connect(connectCallBack, messageCallBack, disconnectCallBack, errorCallBack); // 调用conne()方法连接服务端程序
-    client.getState(); // 调用getState()方法获取客户端连接状态，包含状态'unconnected'、'connecting'、'connected'、'disconnecting'、'disconnected'
-    client.send('hello'); // 调用send(msg)方法向服务端发送消息
+    var client = pipeline.createClient(); // 新建客户端
+    client.connect(connectCallBack, messageCallBack, disconnectCallBack, errorCallBack); // 连接服务端
+    client.getState(); // 获取客户端连接状态：'unconnected'、'connecting'、'connected'、'disconnecting'、'disconnected'
+    client.send('hello'); // 向服务端发送消息
 
-    后端教程
+    后端教程：
     项目引入Pipeline.dll、StriveEngine.dll
-    Server server = new Server(); // 创建服务端对象
+    Server server = new Server(); // 新建服务端
     server.Start(
             CbDelegate<int> clientCountChanged,
             CbDelegate<IPEndPoint> clientConnected,
             CbDelegate<IPEndPoint> clientDisconnected,
             CbDelegate<IPEndPoint, byte[]> messageReceived
-            ); // 开始服务端
-    server.ReStart(); // 用户暂停服务端后重启服务端
-    server.Pause(); // 暂停服务端（可以接收已连接客户端的消息）
+            ); // 开启服务端
+    server.ReStart(); // 重启服务端
+    server.Pause(); // 暂停服务端（可以继续接收已连接客户端的消息）
     server.Close(); // 关闭服务端
     server.Send(IPEndPoint client, string msg); // 向客户端发送消息
     server.GetClientList(); // 获取所有连接客户端
