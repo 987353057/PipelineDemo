@@ -34,4 +34,6 @@
     server.GetClientList(); // 获取所有连接客户端
 
     联系方式：987353057@qq.com
-！[image](https://github.com/987353057/PipelineDemo/blob/987353057-patch-1/IMG_20200328_173450.jpg)
+
+    感谢支持：
+![](https://github.com/987353057/PipelineDemo/blob/987353057-patch-1/IMG_20200328_173450.jpg)
