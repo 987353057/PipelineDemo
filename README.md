@@ -33,6 +33,5 @@
     server.Send(IPEndPoint client, string msg); // 向客户端发送消息
     server.GetClientList(); // 获取所有连接客户端
 
-    作者联系方式：987353057@qq.com
-    感谢支持：
-    
+    联系方式：987353057@qq.com
+！[image](https://github.com/987353057/PipelineDemo/blob/987353057-patch-1/IMG_20200328_173450.jpg)
