@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>pipeline</title>
+  </head>
+  <body>
+    <button onclick="handleConnectClick()">管道连接</button><br/><br/>
+    <button onclick="handleDisconnectClick()">管道断开</button><br/><br/>
+    <textarea id="msg" rows="6" cols="100"></textarea><br/><br/>
+    <button onclick="handleSendClick()">发送</button><br/><br/>
+
+    <script src="./pipeline.js"></script>
+    <script>
+      var client = pipeline.createClient();
+
+      function handleConnectClick () {
+        if (client.getState() === 'unconnected')
+        client.connect(function () {
+          console.log('连接成功');
+        }, function (msg) {
+          console.log('接收数据', msg);
+        }, function () {
+          console.log('连接断开');
+        }, function () {
+          console.log('管道异常');
+          setTimeout(function () {
+            handleConnectClick()
+          }, 5000);
+        })
+      }
+      
+      function handleDisconnectClick () {
+        client.disconnect();
+      }
+
+      function handleSendClick () {
+        var msg = document.getElementById("msg").value;
+        client.send(msg);
+      }
+    </script>
+  </body>
+</html>

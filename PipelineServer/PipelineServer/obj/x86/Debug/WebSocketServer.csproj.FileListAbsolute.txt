@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\WebSocketServer\WebSocketServer\WebSocketServer\bin\Debug\WebSocketServer.exe
+C:\Users\Administrator\Desktop\WebSocketServer\WebSocketServer\WebSocketServer\bin\Debug\WebSocketServer.pdb
+C:\Users\Administrator\Desktop\WebSocketServer\WebSocketServer\WebSocketServer\bin\Debug\StriveEngine.dll
+C:\Users\Administrator\Desktop\WebSocketServer\WebSocketServer\WebSocketServer\bin\Debug\StriveEngine.xml
+C:\Users\Administrator\Desktop\WebSocketServer\WebSocketServer\WebSocketServer\obj\x86\Debug\WebSocketServer.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\WebSocketServer\WebSocketServer\WebSocketServer\obj\x86\Debug\WebSocketServer.exe
+C:\Users\Administrator\Desktop\WebSocketServer\WebSocketServer\WebSocketServer\obj\x86\Debug\WebSocketServer.pdb
+C:\Users\Administrator\Desktop\WebSocketServer\WebSocketServer\WebSocketServer\bin\Debug\Pipeline.dll
+C:\Users\Administrator\Desktop\WebSocketServer\WebSocketServer\WebSocketServer\bin\Debug\Pipeline.pdb
+C:\Users\Administrator\Desktop\PipelineServer\WebSocketServer\obj\x86\Debug\WebSocketServer.exe
+C:\Users\Administrator\Desktop\PipelineServer\WebSocketServer\obj\x86\Debug\WebSocketServer.pdb

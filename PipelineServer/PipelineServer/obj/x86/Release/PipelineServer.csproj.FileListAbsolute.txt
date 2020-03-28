@@ -1,0 +1,7 @@
+E:\Win7\Win7\Git\PipelineDemo\PipelineServer\PipelineServer\bin\Release\PipelineServer.exe
+E:\Win7\Win7\Git\PipelineDemo\PipelineServer\PipelineServer\bin\Release\PipelineServer.pdb
+E:\Win7\Win7\Git\PipelineDemo\PipelineServer\PipelineServer\bin\Release\Pipeline.dll
+E:\Win7\Win7\Git\PipelineDemo\PipelineServer\PipelineServer\bin\Release\StriveEngine.dll
+E:\Win7\Win7\Git\PipelineDemo\PipelineServer\PipelineServer\obj\x86\Release\PipelineServer.csprojResolveAssemblyReference.cache
+E:\Win7\Win7\Git\PipelineDemo\PipelineServer\PipelineServer\obj\x86\Release\PipelineServer.exe
+E:\Win7\Win7\Git\PipelineDemo\PipelineServer\PipelineServer\obj\x86\Release\PipelineServer.pdb
